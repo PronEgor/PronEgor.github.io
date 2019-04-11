@@ -1,0 +1,25 @@
+body{font-style: oblique;
+     font-family: "Times new Roman";
+     font-weight: 800;
+     background:linear-gradient(90deg, red 25%, blue 25%, transparent 50%),
+                linear-gradient(270deg, green 20%, lightblue 30%);
+                background-size: 20px;}
+div{background-image:url(https://jag.in.ua/upload/iblock/2bd/pic.png);
+     width: 800px;
+     height: 500px;
+     border-top: 2px solid green;
+     border-left: 4px dotted grey;
+} 
+div div{
+	width:40%;
+	height:60%;
+	background:linear-gradient(to bottom, #FFB6C1,#DA70D6,#FFC0CB);
+	overflow: scroll;
+}
+img{
+	width:350px;
+	height: 250px;
+}
+p{
+	border: 3px ridge aqua;
+	width: 40%;}
