@@ -1,0 +1,27 @@
+*{font-family: "Courier new";
+  font-size:large;
+  font-style: oblique;}
+html{background:radial-gradient(circle, lightgreen 10%, green 10%, green 30%, transparent 30%);
+background-size: 10% 10%;}
+ul{max-height:200px;
+   background:yellow;
+   margin-top: 50px;}
+ul li{display: inline-block;
+      margin: 20px;
+      margin-left: 110px;}
+a{text-decoration:none;
+border-bottom: medium solid red;}
+a:hover{text-decoration:none;
+	border-bottom: medium dotted black;}
+#zero{min-width: 1200px;
+   height: 500px;
+   background:yellow;}
+#zero :first-child{width: 700px;
+	height: 800px;
+	background: red;
+	transition: transform 3s ease;
+    overflow: scroll;
+float: left;}
+#first:hover{transform:rotate(30deg);}
+img{width: 150px;
+   height: 150px;}
